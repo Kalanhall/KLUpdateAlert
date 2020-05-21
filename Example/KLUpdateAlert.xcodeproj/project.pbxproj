@@ -24,6 +24,8 @@
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		9F4F400B9F9AD694A2356D02 /* Pods_KLUpdateAlert_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CA8CB2B3D6A3563BE435847 /* Pods_KLUpdateAlert_Tests.framework */; };
 		C55CA96CEA308B4E0B50A3D0 /* Pods_KLUpdateAlert_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 155B14FFBBB59558E201DF80 /* Pods_KLUpdateAlert_Example.framework */; };
+		F644454C24768B30004AD092 /* SELUpdateAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = F644454924768B30004AD092 /* SELUpdateAlert.m */; };
+		F644454D24768B30004AD092 /* SELUpdateAlertConst.m in Sources */ = {isa = PBXBuildFile; fileRef = F644454A24768B30004AD092 /* SELUpdateAlertConst.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +43,7 @@
 		046F52C32056AAE6F1C708A6 /* Pods-KLUpdateAlert_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLUpdateAlert_Tests.debug.xcconfig"; path = "Target Support Files/Pods-KLUpdateAlert_Tests/Pods-KLUpdateAlert_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		0CA8CB2B3D6A3563BE435847 /* Pods_KLUpdateAlert_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KLUpdateAlert_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		155B14FFBBB59558E201DF80 /* Pods_KLUpdateAlert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KLUpdateAlert_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2937A821D1DB736F2E321BF8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2937A821D1DB736F2E321BF8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* KLUpdateAlert_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KLUpdateAlert_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,12 +63,16 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		60D76259F487B8D8D73FC899 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		60D76259F487B8D8D73FC899 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		731256A0E53E5F64769AC924 /* Pods-KLUpdateAlert_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLUpdateAlert_Example.debug.xcconfig"; path = "Target Support Files/Pods-KLUpdateAlert_Example/Pods-KLUpdateAlert_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ED8B3B0538C6539CEAE74F8B /* KLUpdateAlert.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KLUpdateAlert.podspec; path = ../KLUpdateAlert.podspec; sourceTree = "<group>"; };
+		ED8B3B0538C6539CEAE74F8B /* KLUpdateAlert.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KLUpdateAlert.podspec; path = ../KLUpdateAlert.podspec; sourceTree = "<group>"; };
 		EEDBD07FE626ABDA1D4D6BD1 /* Pods-KLUpdateAlert_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLUpdateAlert_Example.release.xcconfig"; path = "Target Support Files/Pods-KLUpdateAlert_Example/Pods-KLUpdateAlert_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F644454824768B30004AD092 /* SELUpdateAlertConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SELUpdateAlertConst.h; sourceTree = "<group>"; };
+		F644454924768B30004AD092 /* SELUpdateAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SELUpdateAlert.m; sourceTree = "<group>"; };
+		F644454A24768B30004AD092 /* SELUpdateAlertConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SELUpdateAlertConst.m; sourceTree = "<group>"; };
+		F644454B24768B30004AD092 /* SELUpdateAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SELUpdateAlert.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +143,7 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* KLViewController.h */,
 				6003F5A6195388D20070C39A /* KLViewController.m */,
+				F644454724768B30004AD092 /* UpdateAlert */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -193,8 +200,18 @@
 				046F52C32056AAE6F1C708A6 /* Pods-KLUpdateAlert_Tests.debug.xcconfig */,
 				01C9191D7CB04476E5A9C4F3 /* Pods-KLUpdateAlert_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		F644454724768B30004AD092 /* UpdateAlert */ = {
+			isa = PBXGroup;
+			children = (
+				F644454824768B30004AD092 /* SELUpdateAlertConst.h */,
+				F644454924768B30004AD092 /* SELUpdateAlert.m */,
+				F644454A24768B30004AD092 /* SELUpdateAlertConst.m */,
+				F644454B24768B30004AD092 /* SELUpdateAlert.h */,
+			);
+			path = UpdateAlert;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +265,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Kalanhall@163.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 579P9269QX;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +278,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -303,10 +324,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-KLUpdateAlert_Example/Pods-KLUpdateAlert_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/KLUpdateAlert/KLUpdateAlert.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KLUpdateAlert.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -365,7 +388,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* KLAppDelegate.m in Sources */,
+				F644454D24768B30004AD092 /* SELUpdateAlertConst.m in Sources */,
 				6003F5A7195388D20070C39A /* KLViewController.m in Sources */,
+				F644454C24768B30004AD092 /* SELUpdateAlert.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,6 +519,7 @@
 			baseConfigurationReference = 731256A0E53E5F64769AC924 /* Pods-KLUpdateAlert_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 579P9269QX;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KLUpdateAlert/KLUpdateAlert-Prefix.pch";
 				INFOPLIST_FILE = "KLUpdateAlert/KLUpdateAlert-Info.plist";
@@ -510,6 +536,7 @@
 			baseConfigurationReference = EEDBD07FE626ABDA1D4D6BD1 /* Pods-KLUpdateAlert_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 579P9269QX;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KLUpdateAlert/KLUpdateAlert-Prefix.pch";
 				INFOPLIST_FILE = "KLUpdateAlert/KLUpdateAlert-Info.plist";

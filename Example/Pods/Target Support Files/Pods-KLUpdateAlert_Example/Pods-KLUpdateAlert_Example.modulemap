@@ -1,0 +1,6 @@
+framework module Pods_KLUpdateAlert_Example {
+  umbrella header "Pods-KLUpdateAlert_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

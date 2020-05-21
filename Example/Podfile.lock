@@ -1,0 +1,23 @@
+PODS:
+  - KLUpdateAlert (1.0.0):
+    - Masonry
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - KLUpdateAlert (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+
+EXTERNAL SOURCES:
+  KLUpdateAlert:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KLUpdateAlert: db7c3fec36f045b3fc69fa5d61f42e3accdd122a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: 3158af964747b440fe2b1fc5402c988c7165503d
+
+COCOAPODS: 1.9.1

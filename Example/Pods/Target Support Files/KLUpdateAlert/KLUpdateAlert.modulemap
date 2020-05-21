@@ -1,0 +1,6 @@
+framework module KLUpdateAlert {
+  umbrella header "KLUpdateAlert-umbrella.h"
+
+  export *
+  module * { export * }
+}
